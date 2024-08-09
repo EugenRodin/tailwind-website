@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple</title>
+  <link rel="stylesheet" href="src/output.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-serif">
+<header class="bg-stone-800 text-zinc-100 px-14 py-4 text-sm">
+  <div class="flex items-center justify-between gap-8">
+    <div class="flex items-center gap-2">
+      <img class="apple-logo block bg-white rounded-2xl" src="assets/image/94225.png" alt="Apple logo">
+      <a class="block font-medium text-xl" href="#">Apple</a>
+    </div>
+    <nav class="hidden md:block">
+      <ul class="flex gap-6 font-medium">
+        <li><a class="navbar-link" href="#">Home</a></li>
+        <li><a class="navbar-link" href="#">About</a></li>
+        <li><a class="navbar-link" href="#">Contact</a></li>
+        <li><a class="navbar-link" href="#">Blog</a></li>
+      </ul>
+    </nav>
+    <button class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </button>
+  </div>
+</header>
+<main>
+  <section class="py-9 px-14 bg-slate-100 text-center">
+    <div class="container mx-auto flex flex-col justify-center items-center mt-6">
+      <div>
+        <h1 class="text-6xl font-semibold">MacBook Air</h1>
+        <p class="text-3xl font-normal mt-4">Lean. Mean. M3 machine</p>
+      </div>
+      <div class="text-4xl text-teal-600 font-semibold">
+        <a class="link-buy mr-12" href="#">Learn more</a>
+        <a class="link-buy" href="#">Buy</a>
+        <a href="#">
+          <img class="mt-10" src="assets/image/MBA_Car2_678x452.jpg" alt="macbook air">
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="px-14 py-9 pb-60 bg-cover bg-no-repeat bg-center flex flex-col justify-end" style="background-image: url(assets/image/iPhone15pro_01.jpg); min-height: 400px;">
+    <div class="container text-center mt-6">
+      <div class="text-white">
+        <h2 class="text-5xl font-semibold">iPhone 15 Pro</h2>
+        <p class="text-3xl font-normal mt-4">Titanium. So strong. So light. So Pro</p>
+      </div>
+      <div class="text-4xl text-sky-500 font-semibold">
+        <a class="link-buy mr-12" href="#">Learn more</a>
+        <a class="link-buy" href="#">Buy</a>
+      </div>
+    </div>
+  </section>
+  <section class="container mb-4 text-center">
+    <div class="flex flex-col sm:flex-col md:flex-row">
+      <div class="flex-1 flex flex-col justify-end bg-cover bg-no-repeat bg-center" style="background-image: url(assets/image/Apple-Vision-Pro-jpg.jpg); min-height: 400px;">
+        <div>
+          <h2 class="text-3xl font-semibold">Vision Pro</h2>
+          <p class="text-2xl font-normal mt-4">Welcome to the era of spatial computing</p>
+        </div>
+        <div class="text-2xl text-sky-500 font-semibold mb-4">
+          <a class="link-buy mr-12" href="#">Learn more</a>
+          <a class="link-buy" href="#">Buy</a>
+        </div>
+      </div>
+      <div class="pt-4 flex-1 flex flex-col justify-start bg-cover bg-no-repeat bg-center" style="background-image: url(assets/image/Apple-Watch-S9.jpg); min-height: 400px;">
+        <div>
+          <h2 class="text-3xl font-semibold text-indigo-100">Watch</h2>
+          <p class="text-red-700 uppercase">Series 9</p>
+          <p class="text-3xl font-normal text-indigo-100 mt-4">Smarter. Brighter. Mighter.</p>
+        </div>
+        <div class="text-2xl text-sky-500 font-semibold mb-4">
+          <a class="link-buy mr-12" href="#">Learn more</a>
+          <a class="link-buy" href="#">Buy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

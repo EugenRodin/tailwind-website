@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar-link {
+  @apply p-2 border-b-2 border-transparent hover:text-cyan-300 hover:border-red-400 shadow-md rounded-lg
+}
+.link-buy {
+  @apply inline-block text-lg underline
+}
